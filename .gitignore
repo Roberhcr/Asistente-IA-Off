@@ -34,13 +34,9 @@ InteligenciaPatron/memoria_patrones.json
 # --- Respaldos y copias de trabajo ---
 _respaldo_version_octubre/
 Claude outputs/
-Documentacion/*_v3.docx
-Documentacion/*_v4.docx
-Documentacion/*_v5.docx
-Documentacion/*_v6.docx
-Documentacion/Presentacion_Avance_Oddye.pptx
+Documentacion/
+PENDIENTES_FUNCIONES.md
 ~$*
 
 # --- Editor ---
 .vscode/
-Documentacion/

@@ -69,7 +69,6 @@ data/processed/            Particiones train / val / test / test_voz, banco few-
 src/                       Pipeline de datos, EDA, modelos de referencia e intérprete con Qwen3-4B
 reports/                   Figuras y métricas
 tests/                     Pruebas del pipeline de datos
-Documentacion/             Informe del proyecto y presentación
 ```
 
 ## Reproducir el pipeline de datos y la evaluación
