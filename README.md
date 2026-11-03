@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Oddye: asistente inteligente de escritorio sin conexión
 
 Oddye es un asistente para Windows que funciona **sin Internet**. Entiende órdenes en español, escritas o habladas, y las convierte en acciones sobre la computadora: abrir y cerrar programas, abrir carpetas, ejecutar comandos del sistema y conversar. Todo el procesamiento ocurre en el equipo.
@@ -96,6 +95,3 @@ Las conversaciones (`Chats/`), la memoria de patrones (`InteligenciaPatron/memor
 ## Licencias de terceros
 
 Qwen3-4B: Apache-2.0 · llama.cpp, whisper.cpp y Whisper: MIT · piper-tts: GPL-3.0 o posterior · voz es_MX-claude-high: datos con licencia Apache-2.0. Conjunto de datos propio: CC BY 4.0.
-=======
-# Asistente-IA-Off
->>>>>>> 1e70df0b7e28adaca2a33cc2ac9c853d371fc36b
