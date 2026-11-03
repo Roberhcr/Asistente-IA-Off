@@ -21,8 +21,8 @@ Autores: Br. Robertha Valeria Cabrera Ramos y Br. Kenneth Alexander Guzmán Cisn
 Los modelos de IA pesan más de lo que GitHub permite (100 MB por archivo), así que no están en el repositorio. El script `instalar_modelos.ps1` los descarga en las carpetas correctas.
 
 ```powershell
-git clone https://github.com/USUARIO/REPOSITORIO.git
-cd REPOSITORIO
+git clone https://github.com/Roberhcr/Asistente-IA-Off.git
+cd Asistente-IA-Off
 
 # 1. Descargar los modelos (Qwen3-4B, Whisper base y la voz de Piper)
 powershell -ExecutionPolicy Bypass -File .\instalar_modelos.ps1
