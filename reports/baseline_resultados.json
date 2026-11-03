@@ -1,0 +1,81 @@
+{
+  "k": 8,
+  "train": 814,
+  "vocabulario_ngramas": 4255,
+  "val": {
+    "n": 142,
+    "knn_exactitud": 0.8592,
+    "knn_f1_macro": 0.8595,
+    "logreg_exactitud": 0.9577,
+    "logreg_f1_macro": 0.9386,
+    "recuperador_recall@8": 0.9859
+  },
+  "test": {
+    "n": 143,
+    "knn_exactitud": 0.8601,
+    "knn_f1_macro": 0.8472,
+    "logreg_exactitud": 0.9301,
+    "logreg_f1_macro": 0.9183,
+    "recuperador_recall@8": 0.965
+  },
+  "errores_logreg_test": [
+    {
+      "instruccion": "ya terminé por hoy, apaga la compu",
+      "intencion": "ejecutar_comando",
+      "prediccion": "cerrar_aplicacion"
+    },
+    {
+      "instruccion": "ponlo",
+      "intencion": "ambigua",
+      "prediccion": "abrir_aplicacion"
+    },
+    {
+      "instruccion": "quita el explorador",
+      "intencion": "cerrar_aplicacion",
+      "prediccion": "abrir_aplicacion"
+    },
+    {
+      "instruccion": "mándale un WhatsApp a Kenneth",
+      "intencion": "fuera_de_alcance",
+      "prediccion": "abrir_aplicacion"
+    },
+    {
+      "instruccion": "oye, quita PowerPoint",
+      "intencion": "cerrar_aplicacion",
+      "prediccion": "abrir_aplicacion"
+    },
+    {
+      "instruccion": "asistente, pide una pizza ya",
+      "intencion": "fuera_de_alcance",
+      "prediccion": "abrir_aplicacion"
+    },
+    {
+      "instruccion": "me equivoqué, no apagues nada",
+      "intencion": "ejecutar_comando",
+      "prediccion": "responder_sugerencia"
+    },
+    {
+      "instruccion": "nel",
+      "intencion": "responder_sugerencia",
+      "prediccion": "abrir_aplicacion"
+    },
+    {
+      "instruccion": "hacé lo que te pedí",
+      "intencion": "ambigua",
+      "prediccion": "consultar_contexto"
+    },
+    {
+      "instruccion": "arrancá lo del trabajo",
+      "intencion": "ejecutar_rutina",
+      "prediccion": "ambigua"
+    }
+  ],
+  "test_voz": {
+    "n": 112,
+    "knn_exactitud": 0.8661,
+    "knn_f1_macro": 0.8187,
+    "logreg_exactitud": 0.9196,
+    "logreg_f1_macro": 0.8493,
+    "recuperador_recall@8": 0.9643
+  }
+}

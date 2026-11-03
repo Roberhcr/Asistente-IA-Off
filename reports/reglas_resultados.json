@@ -1,0 +1,200 @@
+{
+  "test": {
+    "n": 143,
+    "exactitud_global": 0.2028,
+    "f1_macro_global": 0.1083,
+    "n_accion": 57,
+    "exactitud_intenciones_accion": 0.4035,
+    "exactitud_parametros_accion": 0.2807,
+    "exactitud_por_intencion_accion": {
+      "abrir_aplicacion": 0.65,
+      "abrir_carpeta": 0.154,
+      "cerrar_aplicacion": 0.0,
+      "ejecutar_comando": 0.615
+    },
+    "acciones_falsas_sobre_no_accion": "15 de 86",
+    "ejemplos_acciones_falsas": [
+      {
+        "instruccion": "asistente, crea una rutina de trabajo que abra la consola y los ajustes del sistema ya",
+        "intencion": "crear_rutina",
+        "pred": "abrir_aplicacion"
+      },
+      {
+        "instruccion": "asistente, ejecuta la rutina de mañana ya",
+        "intencion": "ejecutar_rutina",
+        "pred": "abrir_aplicacion"
+      },
+      {
+        "instruccion": "por favor necesito abrir mi guía del proyecto ya",
+        "intencion": "abrir_archivo",
+        "pred": "abrir_aplicacion"
+      },
+      {
+        "instruccion": "ey, buscame dónde está lo de captura de pantalla por favor",
+        "intencion": "buscar_archivo",
+        "pred": "ejecutar_comando"
+      },
+      {
+        "instruccion": "crea una rutina de mañana que abra el YouTube y Zoom",
+        "intencion": "crear_rutina",
+        "pred": "abrir_aplicacion"
+      },
+      {
+        "instruccion": "abre el archivo",
+        "intencion": "ambigua",
+        "pred": "abrir_aplicacion"
+      },
+      {
+        "instruccion": "oye, abre la tarea de redes por favor",
+        "intencion": "abrir_archivo",
+        "pred": "abrir_aplicacion"
+      },
+      {
+        "instruccion": "por favor guarda como rutina de reunión abrir los ajustes del sistema y Visual Studio Code",
+        "intencion": "crear_rutina",
+        "pred": "abrir_aplicacion"
+      }
+    ],
+    "ejemplos_errores_accion": [
+      {
+        "instruccion": "necesito el navegador para revisar el aula virtual",
+        "intencion": "abrir_aplicacion",
+        "pred": "conversacion_general"
+      },
+      {
+        "instruccion": "ya terminé por hoy, apaga la compu",
+        "intencion": "ejecutar_comando",
+        "pred": "conversacion_general"
+      },
+      {
+        "instruccion": "por favor iniciá la configuración",
+        "intencion": "abrir_aplicacion",
+        "pred": "conversacion_general"
+      },
+      {
+        "instruccion": "por favor abrí la calculadora",
+        "intencion": "abrir_aplicacion",
+        "pred": "conversacion_general"
+      },
+      {
+        "instruccion": "porfa poné el Netflix",
+        "intencion": "abrir_aplicacion",
+        "pred": "conversacion_general"
+      },
+      {
+        "instruccion": "enséñame lo que tengo en el escritorio",
+        "intencion": "abrir_carpeta",
+        "pred": "conversacion_general"
+      },
+      {
+        "instruccion": "porfa abrí Imágenes",
+        "intencion": "abrir_carpeta",
+        "pred": "conversacion_general"
+      },
+      {
+        "instruccion": "quita el explorador",
+        "intencion": "cerrar_aplicacion",
+        "pred": "conversacion_general"
+      }
+    ]
+  },
+  "test_voz": {
+    "n": 112,
+    "exactitud_global": 0.2321,
+    "f1_macro_global": 0.1239,
+    "n_accion": 43,
+    "exactitud_intenciones_accion": 0.4651,
+    "exactitud_parametros_accion": 0.3256,
+    "exactitud_por_intencion_accion": {
+      "abrir_aplicacion": 0.8,
+      "abrir_carpeta": 0.167,
+      "cerrar_aplicacion": 0.0,
+      "ejecutar_comando": 0.75
+    },
+    "acciones_falsas_sobre_no_accion": "10 de 69",
+    "ejemplos_acciones_falsas": [
+      {
+        "instruccion": "oye abre la tarea de redes por favor",
+        "intencion": "abrir_archivo",
+        "pred": "abrir_aplicacion"
+      },
+      {
+        "instruccion": "por favor necesito abrir mi guia del proyecto ya",
+        "intencion": "abrir_archivo",
+        "pred": "abrir_aplicacion"
+      },
+      {
+        "instruccion": "asistente ejecuta la rutina de mañana ya",
+        "intencion": "ejecutar_rutina",
+        "pred": "abrir_aplicacion"
+      },
+      {
+        "instruccion": "ey encuentre la imagen de captura de pantalla",
+        "intencion": "buscar_archivo",
+        "pred": "ejecutar_comando"
+      },
+      {
+        "instruccion": "porfa arma una rutina de trabajo que abra el zoom la consola y whatsapp",
+        "intencion": "crear_rutina",
+        "pred": "abrir_aplicacion"
+      },
+      {
+        "instruccion": "por favor guarda como rutina de reunion abrir los ajustes del sistema y visual studio code",
+        "intencion": "crear_rutina",
+        "pred": "abrir_aplicacion"
+      },
+      {
+        "instruccion": "ey arma una rutina de estudio que abra youtube y visual studio code ahora",
+        "intencion": "crear_rutina",
+        "pred": "abrir_aplicacion"
+      },
+      {
+        "instruccion": "asistente crea una rutina de trabajo que abra la consola y los ajustes del sistema ya",
+        "intencion": "crear_rutina",
+        "pred": "abrir_aplicacion"
+      }
+    ],
+    "ejemplos_errores_accion": [
+      {
+        "instruccion": "cierre excel por favor",
+        "intencion": "cerrar_aplicacion",
+        "pred": "conversacion_general"
+      },
+      {
+        "instruccion": "cerra el youtube",
+        "intencion": "cerrar_aplicacion",
+        "pred": "conversacion_general"
+      },
+      {
+        "instruccion": "asistente abri el escritorio ahora",
+        "intencion": "abrir_carpeta",
+        "pred": "conversacion_general"
+      },
+      {
+        "instruccion": "abri mis documentos",
+        "intencion": "abrir_carpeta",
+        "pred": "conversacion_general"
+      },
+      {
+        "instruccion": "cerrame word",
+        "intencion": "cerrar_aplicacion",
+        "pred": "conversacion_general"
+      },
+      {
+        "instruccion": "porfa abri imagenes",
+        "intencion": "abrir_carpeta",
+        "pred": "conversacion_general"
+      },
+      {
+        "instruccion": "me equivoque no apagues nada",
+        "intencion": "ejecutar_comando",
+        "pred": "conversacion_general"
+      },
+      {
+        "instruccion": "ey cierre la consola",
+        "intencion": "cerrar_aplicacion",
+        "pred": "conversacion_general"
+      }
+    ]
+  }
+}

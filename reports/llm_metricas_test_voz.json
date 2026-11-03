@@ -1,0 +1,11 @@
+{
+  "conjunto": "test_voz",
+  "n": 112,
+  "k": 8,
+  "exactitud_intencion": 0.9375,
+  "f1_macro": 0.8749,
+  "exactitud_parametros": 0.9196,
+  "json_valido": 0.9732,
+  "latencia_media_s": 8.395,
+  "latencia_p95_s": 12.756
+}

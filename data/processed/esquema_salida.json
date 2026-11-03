@@ -1,0 +1,253 @@
+{
+  "system_prompt": "Eres el intérprete de instrucciones de un asistente de escritorio local. Devuelve SOLO un objeto JSON con las claves 'intencion' y 'parametros', usando únicamente las intenciones del catálogo.",
+  "valores_canonicos": {
+    "aplicacion": [
+      "archivos",
+      "bloc_de_notas",
+      "calculadora",
+      "configuracion",
+      "excel",
+      "navegador",
+      "netflix",
+      "powerpoint",
+      "spotify",
+      "teams",
+      "terminal",
+      "vscode",
+      "whatsapp",
+      "word",
+      "youtube",
+      "zoom"
+    ],
+    "carpeta": [
+      "descargas",
+      "documentos",
+      "escritorio",
+      "imagenes",
+      "musica",
+      "videos"
+    ],
+    "comando": [
+      "apagar_equipo",
+      "bajar_volumen",
+      "bloquear_pantalla",
+      "cancelar_apagado",
+      "captura_pantalla",
+      "reiniciar_equipo",
+      "silenciar_volumen",
+      "subir_volumen",
+      "vaciar_papelera"
+    ],
+    "nombre_rutina": [
+      "entretenimiento",
+      "estudio",
+      "mañana",
+      "programación",
+      "reunión",
+      "trabajo"
+    ]
+  },
+  "intenciones": {
+    "abrir_aplicacion": {
+      "type": "object",
+      "properties": {
+        "aplicacion": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "aplicacion"
+      ],
+      "additionalProperties": false
+    },
+    "cerrar_aplicacion": {
+      "type": "object",
+      "properties": {
+        "aplicacion": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "aplicacion"
+      ],
+      "additionalProperties": false
+    },
+    "abrir_carpeta": {
+      "type": "object",
+      "properties": {
+        "carpeta": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "carpeta"
+      ],
+      "additionalProperties": false
+    },
+    "abrir_archivo": {
+      "type": "object",
+      "properties": {
+        "nombre": {
+          "type": "string"
+        },
+        "extension": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "nombre",
+        "extension"
+      ],
+      "additionalProperties": false
+    },
+    "buscar_archivo": {
+      "type": "object",
+      "properties": {
+        "consulta": {
+          "type": "string"
+        },
+        "extension": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "consulta",
+        "extension"
+      ],
+      "additionalProperties": false
+    },
+    "ejecutar_comando": {
+      "type": "object",
+      "properties": {
+        "comando": {
+          "type": "string"
+        },
+        "requiere_confirmacion": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "comando",
+        "requiere_confirmacion"
+      ],
+      "additionalProperties": false
+    },
+    "crear_rutina": {
+      "type": "object",
+      "properties": {
+        "nombre": {
+          "type": "string"
+        },
+        "acciones": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "intencion",
+              "parametros"
+            ]
+          }
+        }
+      },
+      "required": [
+        "nombre",
+        "acciones"
+      ],
+      "additionalProperties": false
+    },
+    "ejecutar_rutina": {
+      "type": "object",
+      "properties": {
+        "nombre": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "nombre"
+      ],
+      "additionalProperties": false
+    },
+    "consultar_contexto": {
+      "type": "object",
+      "properties": {
+        "rango_tiempo": {
+          "enum": [
+            "reciente",
+            "hoy",
+            "ultima_hora"
+          ]
+        }
+      },
+      "required": [
+        "rango_tiempo"
+      ],
+      "additionalProperties": false
+    },
+    "continuar_actividad": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": false
+    },
+    "consultar_historial": {
+      "type": "object",
+      "properties": {
+        "fecha": {
+          "type": "string"
+        },
+        "aplicacion": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "fecha",
+        "aplicacion"
+      ],
+      "additionalProperties": false
+    },
+    "responder_sugerencia": {
+      "type": "object",
+      "properties": {
+        "respuesta": {
+          "enum": [
+            "aceptar",
+            "rechazar",
+            "posponer"
+          ]
+        }
+      },
+      "required": [
+        "respuesta"
+      ],
+      "additionalProperties": false
+    },
+    "conversacion_general": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": false
+    },
+    "ambigua": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": false
+    },
+    "fuera_de_alcance": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": false
+    }
+  }
+}

@@ -1,0 +1,113 @@
+id,instruccion,intencion,prediccion,parametros_ok,json_valido,latencia_s
+v0-00355-voz,mandale un whatsapp a kenneth,fuera_de_alcance,abrir_aplicacion,False,True,7.508
+v0-00423-voz,podrias abrir excel ahora,abrir_aplicacion,abrir_aplicacion,True,True,7.332
+v0-00244-voz,busca donde esta lo de informe porfa,buscar_archivo,buscar_archivo,True,True,7.99
+v0-00367-voz,oye prepara todo para entretenimiento,ejecutar_rutina,ejecutar_rutina,True,True,7.563
+v0-00957-voz,muestrame mi historial de el lunes ya,consultar_historial,consultar_historial,True,True,9.259
+v0-00743-voz,porfa buscame el word de informe,buscar_archivo,buscar_archivo,True,True,2.85
+v0-00806-voz,puedes abrir imagenes,abrir_carpeta,abrir_carpeta,True,True,7.375
+v0-00155-voz,muestrame mi historial de la semana pasada,consultar_historial,consultar_historial,True,True,9.544
+v0-00796-voz,asistente descarga una pelicula pirata ahora,fuera_de_alcance,fuera_de_alcance,True,True,6.49
+v0-00947-voz,oye silencia el volumen,ejecutar_comando,ejecutar_comando,True,True,9.687
+v0-01040-voz,asistente cuantas veces use word la semana pasada ahora,consultar_historial,consultar_historial,True,True,3.746
+v0-00420-voz,ey quiero ver mi presentacion final ya,abrir_archivo,abrir_archivo,True,True,8.776
+v0-00325-voz,oye abre la tarea de redes por favor,abrir_archivo,abrir_archivo,True,True,9.118
+v0-00498-voz,ey ejecuta el bloc de notas ahora,abrir_aplicacion,abrir_aplicacion,True,True,7.427
+v0-00302-voz,oye pon powerpoint,abrir_aplicacion,abrir_aplicacion,True,True,7.173
+v0-00095-voz,asistente silencia el volumen,ejecutar_comando,ejecutar_comando,True,True,9.734
+v0-00449-voz,asistente buscame algo que diga proyecto final,buscar_archivo,buscar_archivo,True,True,8.636
+v0-00670-voz,configura mi rutina de entretenimiento con el notepad y el youtube,crear_rutina,crear_rutina,True,True,7.52
+v1-00025-voz,perfecto hazlo,responder_sugerencia,ejecutar_rutina,False,True,8.804
+v0-00565-voz,cierre excel por favor,cerrar_aplicacion,cerrar_aplicacion,True,True,7.05
+v0-00149-voz,por favor abra excel ahora,abrir_aplicacion,abrir_aplicacion,True,True,10.161
+v0-00226-voz,por favor inicia la configuracion,abrir_aplicacion,abrir_aplicacion,True,True,7.726
+v0-00354-voz,cerra el youtube,cerrar_aplicacion,cerrar_aplicacion,True,True,6.976
+v0-00660-voz,inicia excel,abrir_aplicacion,abrir_aplicacion,True,True,6.823
+v0-00282-voz,no ahorita estoy ocupado,responder_sugerencia,fuera_de_alcance,False,True,8.089
+v0-00764-voz,por favor que abri ayer,consultar_historial,consultar_historial,True,True,8.313
+v1-00040-voz,avisame despues,responder_sugerencia,responder_sugerencia,True,True,9.143
+v0-00270-voz,asistente mostrame el archivo del informe de inteligencia artificial,abrir_archivo,abrir_archivo,True,True,8.738
+v0-00129-voz,resumeme que es el aprendizaje automatico,conversacion_general,ambigua,True,False,7.459
+v0-00816-voz,quiero una rutina de entretenimiento la calculadora y el zoom,crear_rutina,crear_rutina,True,True,13.019
+v0-00683-voz,mostrame mi guia del proyecto porfa,abrir_archivo,abrir_archivo,True,True,3.178
+v0-00200-voz,asistente abri el escritorio ahora,abrir_carpeta,abrir_carpeta,True,True,7.835
+v0-00064-voz,abrime las notas de la reunion por favor,abrir_archivo,abrir_archivo,True,True,3.337
+v0-00488-voz,por favor necesito abrir mi guia del proyecto ya,abrir_archivo,abrir_archivo,True,True,9.336
+v0-00926-voz,abre chrome ya,abrir_aplicacion,abrir_aplicacion,True,True,9.419
+v0-00527-voz,porfa cuantas veces use word ayer,consultar_historial,consultar_historial,True,True,8.974
+v0-00223-voz,abri mis documentos,abrir_carpeta,abrir_carpeta,True,True,7.182
+v0-00690-voz,oye muestrame mi curriculum ahora,abrir_archivo,abrir_archivo,False,True,8.67
+v0-00623-voz,inicia el netflix por favor,abrir_aplicacion,abrir_aplicacion,True,True,7.255
+v0-00164-voz,que archivos abri ayer,consultar_historial,consultar_historial,True,True,8.098
+v0-00395-voz,asistente empeza la rutina de entretenimiento,ejecutar_rutina,ejecutar_rutina,True,True,9.163
+v0-00927-voz,cerrame word,cerrar_aplicacion,cerrar_aplicacion,True,True,7.16
+v0-00338-voz,porfa abri imagenes,abrir_carpeta,abrir_carpeta,True,True,7.204
+v0-00075-voz,que fue lo ultimo que hice,consultar_contexto,consultar_contexto,True,True,7.685
+v0-00530-voz,porfa continua donde lo deje ahora,continuar_actividad,continuar_actividad,True,True,6.581
+v0-00625-voz,asistente ejecuta la rutina de mañana ya,ejecutar_rutina,ejecutar_rutina,True,True,7.747
+v0-00949-voz,por favor inicie excel,abrir_aplicacion,abrir_aplicacion,True,True,7.23
+v0-00415-voz,oye abri el archivo de la tarea de redes ahora,abrir_archivo,abrir_archivo,True,True,9.52
+v0-00012-voz,ey menos volumen,ejecutar_comando,ejecutar_comando,True,True,9.911
+v0-00611-voz,me equivoque no apagues nada,ejecutar_comando,ambigua,False,False,8.934
+v0-00344-voz,configura mi rutina de programacion con el netflix y vs code,crear_rutina,crear_rutina,False,True,7.362
+v0-00176-voz,ey cierre la consola,cerrar_aplicacion,cerrar_aplicacion,True,True,7.169
+v0-00962-voz,oye sigamos con lo de antes ya,continuar_actividad,continuar_actividad,True,True,6.476
+v0-00234-voz,puedes buscar el excel de presupuesto,buscar_archivo,buscar_archivo,True,True,8.222
+v0-01013-voz,asistente pide una pizza ya,fuera_de_alcance,fuera_de_alcance,True,True,7.022
+v0-00040-voz,ey encuentre la imagen de captura de pantalla,buscar_archivo,buscar_archivo,True,True,9.149
+v0-00580-voz,oye que estaba haciendo antes del almuerzo,consultar_contexto,consultar_contexto,True,True,8.027
+v0-00677-voz,por favor abri la calculadora,abrir_aplicacion,abrir_aplicacion,True,True,7.396
+v0-00814-voz,abrime el escritorio ahora,abrir_carpeta,abrir_carpeta,True,True,7.829
+v0-00465-voz,porfa arma una rutina de trabajo que abra el zoom la consola y whatsapp,crear_rutina,crear_rutina,True,True,22.181
+v1-00027-voz,claro que si,responder_sugerencia,responder_sugerencia,True,True,8.883
+v0-00468-voz,en que estaba trabajando esta mañana,consultar_contexto,consultar_contexto,True,True,7.858
+v0-00514-voz,porfa elimina la carpeta de windows ahora,fuera_de_alcance,fuera_de_alcance,True,True,6.512
+v0-00128-voz,que abri hoy,consultar_historial,consultar_historial,True,True,8.276
+v0-00043-voz,oye ayudame a encontrar el pdf de factura,buscar_archivo,buscar_archivo,True,True,8.51
+v0-00802-voz,que abri ayer ya,consultar_historial,consultar_historial,True,True,7.815
+v0-00904-voz,porfa abra el word,abrir_aplicacion,abrir_aplicacion,True,True,7.261
+v0-00218-voz,por favor guarda como rutina de reunion abrir los ajustes del sistema y visual studio code,crear_rutina,crear_rutina,True,True,17.872
+v0-00954-voz,empeza la rutina de programacion por favor,ejecutar_rutina,ejecutar_rutina,True,True,7.477
+v0-00202-voz,arranca lo del trabajo,ejecutar_rutina,ejecutar_rutina,True,True,7.252
+v0-00297-voz,asistente ponle mas volumen ahora,ejecutar_comando,ejecutar_comando,True,True,9.432
+v0-00987-voz,por favor mostrame la presentacion final ya,abrir_archivo,abrir_archivo,True,True,9.011
+v0-00024-voz,porfa vacia la papelera ahora,ejecutar_comando,ejecutar_comando,True,True,10.075
+v0-00921-voz,ey arma una rutina de estudio que abra youtube y visual studio code ahora,crear_rutina,crear_rutina,True,True,16.278
+v0-00196-voz,ya termine por hoy apaga la compu,ejecutar_comando,ejecutar_comando,True,True,9.359
+v0-01027-voz,ey muestreme descargas ya,abrir_carpeta,abrir_carpeta,True,True,7.639
+v0-00538-voz,porfa pone el netflix,abrir_aplicacion,abrir_aplicacion,True,True,7.304
+v0-00451-voz,asistente crea una rutina de trabajo que abra la consola y los ajustes del sistema ya,crear_rutina,crear_rutina,True,True,16.225
+v0-00162-voz,puedes abrir vs code,abrir_aplicacion,abrir_aplicacion,True,True,2.751
+v0-00026-voz,asistente abrime imagenes porfa,abrir_carpeta,abrir_carpeta,True,True,6.945
+v0-00602-voz,que diferencia hay entre ram y disco duro,conversacion_general,conversacion_general,True,True,6.299
+v0-00967-voz,por favor enseñame la carpeta de descargas,abrir_carpeta,abrir_carpeta,True,True,7.703
+v0-00722-voz,muestrame mi planilla de asistencia,abrir_archivo,abrir_archivo,True,True,3.693
+v0-00895-voz,asistente explicame que es la inteligencia artificial,conversacion_general,conversacion_general,True,True,7.666
+v0-00900-voz,asistente prepara todo para mañana,ejecutar_rutina,ejecutar_rutina,True,True,7.5
+v0-00445-voz,oye cuentame un chiste,conversacion_general,conversacion_general,True,True,6.456
+v0-00852-voz,oye quita powerpoint,cerrar_aplicacion,cerrar_aplicacion,True,True,7.089
+v0-00554-voz,asistente sigamos con lo de antes porfa,continuar_actividad,continuar_actividad,True,True,6.647
+v0-00818-voz,ey buscame donde esta lo de captura de pantalla por favor,buscar_archivo,buscar_archivo,False,True,9.173
+v0-00941-voz,ey gracias por la ayuda por favor,conversacion_general,conversacion_general,True,True,7.773
+v0-01018-voz,asistente que fue lo ultimo que hice,consultar_contexto,consultar_contexto,True,True,7.947
+v0-00388-voz,asistente bloquea el equipo porfa,ejecutar_comando,ejecutar_comando,True,True,9.756
+v0-00742-voz,por favor inicia el notepad ya,abrir_aplicacion,abrir_aplicacion,True,True,12.54
+v0-00525-voz,asistente mostrame las descargas,abrir_carpeta,abrir_carpeta,True,True,8.328
+v0-00304-voz,encontra los archivos de factura ya,buscar_archivo,buscar_archivo,True,True,9.149
+v0-00649-voz,buscame los archivos de foto del carnet,buscar_archivo,buscar_archivo,True,True,8.986
+v0-00726-voz,buscame el excel de presupuesto por favor,buscar_archivo,buscar_archivo,True,True,7.885
+v0-00827-voz,oye abre mis imagenes,abrir_carpeta,abrir_carpeta,True,True,7.701
+v0-00532-voz,por favor descarga una pelicula pirata ya,fuera_de_alcance,fuera_de_alcance,True,True,6.837
+v0-00736-voz,ey pone la calculadora porfa,abrir_aplicacion,abrir_aplicacion,True,True,10.435
+v0-00408-voz,oye que archivo estaba editando,consultar_contexto,consultar_contexto,True,True,7.904
+v0-00042-voz,crea una rutina de mañana que abra el youtube y zoom,crear_rutina,crear_rutina,True,True,21.263
+v0-00785-voz,cerra el youtube que me distrae,cerrar_aplicacion,cerrar_aplicacion,True,True,7.627
+v1-00004-voz,hace lo que te pedi,ambigua,ejecutar_rutina,False,True,7.898
+v0-00793-voz,ey llama a mi mama,fuera_de_alcance,fuera_de_alcance,True,True,7.633
+v0-00494-voz,por favor en que me quede,consultar_contexto,consultar_contexto,True,True,7.496
+v0-00940-voz,asistente como se dice computadora en ingles,conversacion_general,conversacion_general,True,True,8.38
+v0-00059-voz,ey encuentre la imagen de foto del carnet,buscar_archivo,buscar_archivo,True,True,9.472
+v0-00845-voz,ey cerrame microsoft word ya,cerrar_aplicacion,cerrar_aplicacion,True,True,10.538
+v0-00907-voz,enseñame lo que tengo en el escritorio,abrir_carpeta,ambigua,False,False,6.804
+v0-00618-voz,ey abrime el escritorio,abrir_carpeta,abrir_carpeta,True,True,7.652
+v0-00254-voz,asistente termine el bloc de notas ahora,cerrar_aplicacion,cerrar_aplicacion,True,True,9.95

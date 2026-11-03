@@ -1,0 +1,144 @@
+id,instruccion,intencion,prediccion,parametros_ok,json_valido,latencia_s
+v0-00891,necesito el navegador para revisar el aula virtual,abrir_aplicacion,abrir_aplicacion,True,True,9.901
+v0-00408,"oye, ¿qué archivo estaba editando?",consultar_contexto,consultar_contexto,True,True,5.806
+v0-00451,"asistente, crea una rutina de trabajo que abra la consola y los ajustes del sistema ya",crear_rutina,crear_rutina,True,True,12.777
+v0-00196,"ya terminé por hoy, apaga la compu",ejecutar_comando,ejecutar_comando,True,True,7.244
+v0-00226,por favor iniciá la configuración,abrir_aplicacion,abrir_aplicacion,True,True,6.141
+v0-00677,por favor abrí la calculadora,abrir_aplicacion,abrir_aplicacion,True,True,6.983
+v0-00538,porfa poné el Netflix,abrir_aplicacion,abrir_aplicacion,True,True,5.821
+v0-00043,"oye, ayúdame a encontrar el PDF de factura",buscar_archivo,buscar_archivo,True,True,6.948
+v0-00987,por favor mostrame la presentación final ya,abrir_archivo,abrir_archivo,True,True,7.278
+v0-00149,por favor abra Excel ahora,abrir_aplicacion,abrir_aplicacion,True,True,7.836
+v0-00129,resúmeme qué es el aprendizaje automático,conversacion_general,consultar_historial,False,True,7.135
+v1-00003,ponlo,ambigua,ambigua,True,True,5.344
+v0-00957,muéstrame mi historial de el lunes ya,consultar_historial,consultar_historial,True,True,7.884
+v0-00024,porfa vacía la papelera ahora,ejecutar_comando,ejecutar_comando,True,True,8.365
+v0-00907,enséñame lo que tengo en el escritorio,abrir_carpeta,ambigua,False,False,6.575
+v0-00338,porfa abrí Imágenes,abrir_carpeta,abrir_carpeta,True,True,6.249
+v0-00270,"asistente, mostrame el archivo del informe de inteligencia artificial",abrir_archivo,abrir_archivo,True,True,7.929
+v0-00306,busca los archivos de presupuesto,buscar_archivo,buscar_archivo,True,True,6.641
+v0-00533,quita el explorador,cerrar_aplicacion,cerrar_aplicacion,True,True,8.003
+v0-00355,mándale un WhatsApp a Kenneth,fuera_de_alcance,abrir_aplicacion,False,True,5.948
+v0-00059,"ey, encuentre la imagen de foto del carnet",buscar_archivo,buscar_archivo,True,True,7.677
+v0-01018,"asistente, ¿qué fue lo último que hice?",consultar_contexto,consultar_contexto,True,True,7.697
+v0-00625,"asistente, ejecuta la rutina de mañana ya",ejecutar_rutina,ejecutar_rutina,True,True,6.695
+v0-00623,inicia el Netflix por favor,abrir_aplicacion,abrir_aplicacion,True,True,6.271
+v0-00223,abrí mis documentos,abrir_carpeta,abrir_carpeta,True,True,6.163
+v0-00690,"oye, muéstrame mi currículum ahora",abrir_archivo,abrir_archivo,True,True,7.428
+v0-00354,cerrá el YouTube,cerrar_aplicacion,cerrar_aplicacion,True,True,5.972
+v0-00420,"ey, quiero ver mi presentación final ya",abrir_archivo,abrir_archivo,True,True,7.408
+v0-00488,por favor necesito abrir mi guía del proyecto ya,abrir_archivo,abrir_archivo,True,True,7.794
+v0-00827,"oye, abre mis imágenes",abrir_carpeta,abrir_carpeta,True,True,6.209
+v0-00309,quiero cerrar la consola,cerrar_aplicacion,cerrar_aplicacion,True,True,6.023
+v0-00282,"no, ahorita estoy ocupado",responder_sugerencia,responder_sugerencia,False,True,8.219
+v0-00742,por favor inicia el Notepad ya,abrir_aplicacion,abrir_aplicacion,True,True,10.041
+v0-00176,"ey, cierre la consola",cerrar_aplicacion,cerrar_aplicacion,True,True,5.997
+v0-00621,abre mis archivos,abrir_aplicacion,abrir_aplicacion,True,True,6.163
+v0-00468,¿en qué estaba trabajando esta mañana?,consultar_contexto,consultar_contexto,True,True,6.798
+v1-00040,avisame después,responder_sugerencia,responder_sugerencia,True,True,7.582
+v0-00726,buscame el Excel de presupuesto por favor,buscar_archivo,buscar_archivo,True,True,7.114
+v0-01027,"ey, muéstreme Descargas ya",abrir_carpeta,abrir_carpeta,True,True,6.616
+v0-00530,porfa continúa donde lo dejé ahora,continuar_actividad,continuar_actividad,True,True,5.614
+v0-00926,abre Chrome ya,abrir_aplicacion,abrir_aplicacion,True,True,7.649
+v0-00445,"oye, cuéntame un chiste",conversacion_general,conversacion_general,True,True,7.695
+v0-00287,abra el navegador ahora,abrir_aplicacion,abrir_aplicacion,True,True,9.344
+v0-00802,qué abrí ayer ya,consultar_historial,consultar_historial,True,True,7.396
+v0-00927,cerrame Word,cerrar_aplicacion,cerrar_aplicacion,True,True,6.542
+v0-00565,cierre Excel por favor,cerrar_aplicacion,cerrar_aplicacion,True,True,6.461
+v0-00967,por favor enséñame la carpeta de Descargas,abrir_carpeta,abrir_carpeta,True,True,7.03
+v0-00415,"oye, abrí el archivo de la tarea de redes ahora",abrir_archivo,abrir_archivo,True,True,8.587
+v0-00818,"ey, buscame dónde está lo de captura de pantalla por favor",buscar_archivo,ambigua,False,False,8.288
+v1-00027,claro que sí,responder_sugerencia,responder_sugerencia,True,True,8.753
+v0-00602,¿qué diferencia hay entre RAM y disco duro?,conversacion_general,conversacion_general,True,True,5.733
+v0-00806,puedes abrir Imágenes,abrir_carpeta,abrir_carpeta,True,True,6.705
+v0-00042,crea una rutina de mañana que abra el YouTube y Zoom,crear_rutina,crear_rutina,True,True,17.065
+v0-00580,"oye, ¿qué estaba haciendo antes del almuerzo?",consultar_contexto,consultar_contexto,True,True,7.274
+v0-00026,"asistente, abrime Imágenes porfa",abrir_carpeta,abrir_carpeta,True,True,6.906
+v1-00025,"perfecto, hazlo",responder_sugerencia,ejecutar_rutina,False,True,7.811
+v0-00367,"oye, prepara todo para entretenimiento",ejecutar_rutina,ejecutar_rutina,True,True,7.035
+v0-00812,abrime internet ya,abrir_aplicacion,abrir_aplicacion,True,True,10.331
+v0-00852,"oye, quita PowerPoint",cerrar_aplicacion,cerrar_aplicacion,True,True,7.254
+v0-00525,"asistente, mostrame las descargas",abrir_carpeta,abrir_carpeta,True,True,7.92
+v0-00200,"asistente, abrí el Escritorio ahora",abrir_carpeta,abrir_carpeta,True,True,8.166
+v0-00895,"asistente, explícame qué es la inteligencia artificial",conversacion_general,conversacion_general,True,True,7.653
+v0-01013,"asistente, pide una pizza ya",fuera_de_alcance,fuera_de_alcance,True,True,7.07
+v0-00304,encontrá los archivos de factura ya,buscar_archivo,buscar_archivo,True,True,7.914
+v0-01040,"asistente, cuántas veces usé Word la semana pasada ahora",consultar_historial,consultar_historial,True,True,9.645
+v0-00893,abre mis documentos ahora,abrir_carpeta,abrir_carpeta,True,True,7.172
+v0-00206,abre el archivo,ambigua,ambigua,True,True,6.697
+v0-00395,"asistente, empezá la rutina de entretenimiento",ejecutar_rutina,ejecutar_rutina,True,True,8.967
+v0-00090,termine la calculadora,cerrar_aplicacion,cerrar_aplicacion,True,True,7.427
+v0-00325,"oye, abre la tarea de redes por favor",abrir_archivo,abrir_archivo,True,True,9.078
+v0-00904,porfa abra el Word,abrir_aplicacion,abrir_aplicacion,True,True,7.237
+v0-00537,por favor quiero ver el archivo de la planilla de asistencia ya,abrir_archivo,abrir_archivo,True,True,9.625
+v0-00268,porfa bloquea el equipo,ejecutar_comando,ejecutar_comando,True,True,9.733
+v0-00302,"oye, pon PowerPoint",abrir_aplicacion,abrir_aplicacion,True,True,7.01
+v0-00494,por favor ¿en qué me quedé?,consultar_contexto,consultar_contexto,True,True,7.331
+v0-00388,"asistente, bloquea el equipo porfa",ejecutar_comando,ejecutar_comando,True,True,9.493
+v0-00611,"me equivoqué, no apagues nada",ejecutar_comando,responder_sugerencia,False,True,8.507
+v0-00514,porfa elimina la carpeta de Windows ahora,fuera_de_alcance,fuera_de_alcance,True,True,6.617
+v0-00155,muéstrame mi historial de la semana pasada,consultar_historial,consultar_historial,True,True,9.493
+v1-00032,nel,responder_sugerencia,ambigua,False,False,8.336
+v0-00794,porfa quita el sonido ahora,ejecutar_comando,ejecutar_comando,True,True,9.59
+v0-00962,"oye, sigamos con lo de antes ya",continuar_actividad,continuar_actividad,True,True,6.389
+v0-00423,podrías abrir Excel ahora,abrir_aplicacion,abrir_aplicacion,True,True,7.242
+v0-00954,empezá la rutina de programación por favor,ejecutar_rutina,ejecutar_rutina,True,True,7.485
+v0-00064,abrime las notas de la reunión por favor,abrir_archivo,abrir_archivo,True,True,9.025
+v0-00814,abrime el Escritorio ahora,abrir_carpeta,abrir_carpeta,True,True,7.877
+v0-00527,porfa ¿cuántas veces usé Word ayer?,consultar_historial,consultar_historial,True,True,9.119
+v0-00793,"ey, llama a mi mamá",fuera_de_alcance,fuera_de_alcance,True,True,7.026
+v0-00941,"ey, gracias por la ayuda por favor",conversacion_general,conversacion_general,True,True,7.201
+v0-00218,por favor guarda como rutina de reunión abrir los ajustes del sistema y Visual Studio Code,crear_rutina,crear_rutina,True,True,17.991
+v0-00554,"asistente, sigamos con lo de antes porfa",continuar_actividad,continuar_actividad,True,True,6.573
+v0-00900,"asistente, prepara todo para mañana",ejecutar_rutina,ejecutar_rutina,True,True,7.769
+v0-00618,"ey, abrime el Escritorio",abrir_carpeta,abrir_carpeta,True,True,7.615
+v0-00816,quiero una rutina de entretenimiento: la calculadora y el Zoom,crear_rutina,crear_rutina,True,True,14.353
+v0-00796,"asistente, descarga una película pirata ahora",fuera_de_alcance,fuera_de_alcance,True,True,6.493
+v0-00075,¿qué fue lo último que hice?,consultar_contexto,consultar_contexto,True,True,7.479
+v0-00570,por favor abra mi tarea de redes,abrir_archivo,abrir_archivo,True,True,9.073
+v0-00244,buscá dónde está lo de informe porfa,buscar_archivo,buscar_archivo,True,True,7.917
+v0-00764,por favor ¿qué abrí ayer?,consultar_historial,consultar_historial,True,True,8.008
+v1-00001,abre ese,ambigua,ambigua,True,True,5.244
+v0-00947,"oye, silencia el volumen",ejecutar_comando,ejecutar_comando,True,True,9.654
+v0-00345,me abres la tarea de redes ya,abrir_archivo,abrir_archivo,True,True,9.249
+v0-00254,"asistente, termine el bloc de notas ahora",cerrar_aplicacion,cerrar_aplicacion,True,True,9.066
+v0-00785,cerrá el YouTube que me distrae,cerrar_aplicacion,cerrar_aplicacion,True,True,7.09
+v0-00073,volvamos a lo que estaba haciendo porfa,continuar_actividad,continuar_actividad,True,True,6.543
+v0-00722,muéstrame mi planilla de asistencia,abrir_archivo,abrir_archivo,True,True,9.311
+v0-00845,"ey, cerrame Microsoft Word ya",cerrar_aplicacion,cerrar_aplicacion,True,True,9.91
+v0-00532,por favor descarga una película pirata ya,fuera_de_alcance,fuera_de_alcance,True,True,6.313
+v0-00847,buscame los archivos de foto del carnet por favor,buscar_archivo,buscar_archivo,False,True,8.628
+v0-00465,"porfa armá una rutina de trabajo que abra el Zoom, la consola y WhatsApp",crear_rutina,crear_rutina,True,True,22.425
+v0-00449,"asistente, búscame algo que diga proyecto final",buscar_archivo,buscar_archivo,True,True,8.756
+v0-00259,por favor abra la calculadora,abrir_aplicacion,abrir_aplicacion,True,True,7.23
+v0-00012,"ey, menos volumen",ejecutar_comando,ejecutar_comando,True,True,9.558
+v0-00670,configura mi rutina de entretenimiento con el Notepad y el YouTube,crear_rutina,crear_rutina,True,True,16.858
+v0-00921,"ey, armá una rutina de estudio que abra YouTube y Visual Studio Code ahora",crear_rutina,crear_rutina,True,True,15.56
+v0-00164,¿qué archivos abrí ayer?,consultar_historial,consultar_historial,True,True,8.717
+v1-00004,hacé lo que te pedí,ambigua,ambigua,True,True,6.37
+v0-00092,por favor volvamos a lo que estaba haciendo ya,continuar_actividad,continuar_actividad,True,True,6.675
+v0-00148,abrime la tarea de redes por favor,abrir_archivo,abrir_archivo,True,True,9.056
+v0-00095,"asistente, silencia el volumen",ejecutar_comando,ejecutar_comando,True,True,9.672
+v0-00761,porfa mutea la compu,ejecutar_comando,ejecutar_comando,True,True,8.955
+v0-00456,por favor pon mi rutina de trabajo ahora,ejecutar_rutina,ejecutar_rutina,True,True,7.394
+v0-00162,puedes abrir VS Code,abrir_aplicacion,abrir_aplicacion,True,True,7.736
+v0-00202,arrancá lo del trabajo,ejecutar_rutina,ejecutar_rutina,True,True,7.244
+v0-00660,iniciá Excel,abrir_aplicacion,abrir_aplicacion,True,True,6.92
+v0-00498,"ey, ejecuta el bloc de notas ahora",abrir_aplicacion,abrir_aplicacion,True,True,7.372
+v0-00868,por favor activa el modo estudio,ejecutar_rutina,ejecutar_rutina,True,True,7.529
+v0-00683,mostrame mi guía del proyecto porfa,abrir_archivo,abrir_archivo,True,True,9.642
+v0-00649,búscame los archivos de foto del carnet,buscar_archivo,buscar_archivo,True,True,8.618
+v0-00297,"asistente, ponle más volumen ahora",ejecutar_comando,ejecutar_comando,True,True,9.81
+v0-00128,¿qué abrí hoy?,consultar_historial,consultar_historial,True,True,9.041
+v0-00743,porfa buscame el Word de informe,buscar_archivo,buscar_archivo,True,True,8.192
+v0-00821,quiero continuar con mi trabajo de ayer,continuar_actividad,continuar_actividad,True,True,6.256
+v0-00736,"ey, poné la calculadora porfa",abrir_aplicacion,abrir_aplicacion,True,True,8.63
+v0-00040,"ey, encuentre la imagen de captura de pantalla",buscar_archivo,buscar_archivo,True,True,9.082
+v0-00822,reinicia la computadora ya,ejecutar_comando,ejecutar_comando,True,True,9.535
+v0-00344,configura mi rutina de programación con el Netflix y VS Code,crear_rutina,crear_rutina,False,True,17.011
+v0-00939,ejecuta la rutina de estudio por favor,ejecutar_rutina,ejecutar_rutina,True,True,7.57
+v0-00427,cancela el reinicio ya,ejecutar_comando,ejecutar_comando,True,True,9.585
+v0-00949,por favor inicie Excel,abrir_aplicacion,abrir_aplicacion,True,True,7.145
+v0-00211,eso,ambigua,ambigua,True,True,5.847
+v0-00234,puedes buscar el Excel de presupuesto,buscar_archivo,buscar_archivo,True,True,8.206
+v0-00940,"asistente, ¿cómo se dice computadora en inglés?",conversacion_general,conversacion_general,True,True,7.088

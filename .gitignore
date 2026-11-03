@@ -1,0 +1,45 @@
+# ==========================================================
+# .gitignore de Oddye
+# Los archivos pesados NO se suben a GitHub (límite de 100 MB
+# por archivo). Se descargan con instalar_modelos.ps1.
+# ==========================================================
+
+# --- Modelos de IA (2.5 GB + 148 MB + 1.5 GB) ---
+Modelos/**/*.gguf
+Modelos/**/*.bin
+
+# --- Voz de Piper (63 MB) ---
+Voz (Piper)/*.onnx
+
+# --- Instalador de Piper (34 MB; se instala con pip) ---
+*.whl
+
+# --- Entorno virtual de Python ---
+venv/
+.venv/
+
+# --- Archivos generados al usar Oddye ---
+__pycache__/
+*.pyc
+temp/
+Config/temp/
+Pruebas de audio/
+*.wav
+*_log.txt
+
+# --- Datos personales de uso (privacidad) ---
+Chats/*.json
+InteligenciaPatron/memoria_patrones.json
+
+# --- Respaldos y copias de trabajo ---
+_respaldo_version_octubre/
+Claude outputs/
+Documentacion/*_v3.docx
+Documentacion/*_v4.docx
+Documentacion/*_v5.docx
+Documentacion/*_v6.docx
+Documentacion/Presentacion_Avance_Oddye.pptx
+~$*
+
+# --- Editor ---
+.vscode/

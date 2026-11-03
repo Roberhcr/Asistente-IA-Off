@@ -1,0 +1,115 @@
+{
+  "registros_crudos": 1108,
+  "crudos_por_archivo": {
+    "dataset_v0.jsonl": 1056,
+    "complemento_v1.jsonl": 52
+  },
+  "textos_modificados_por_normalizacion": 0,
+  "registros_invalidos": 0,
+  "detalle_invalidos": [],
+  "claves_en_conflicto": [],
+  "duplicados_eliminados": 159,
+  "registros_unicos": 949,
+  "unicos_por_intencion": {
+    "abrir_aplicacion": 129,
+    "abrir_archivo": 92,
+    "abrir_carpeta": 85,
+    "buscar_archivo": 84,
+    "ejecutar_comando": 82,
+    "cerrar_aplicacion": 73,
+    "ejecutar_rutina": 60,
+    "crear_rutina": 57,
+    "consultar_historial": 56,
+    "fuera_de_alcance": 43,
+    "conversacion_general": 42,
+    "consultar_contexto": 41,
+    "continuar_actividad": 39,
+    "responder_sugerencia": 33,
+    "ambigua": 33
+  },
+  "tamanos_particiones": {
+    "train": 814,
+    "val": 142,
+    "test": 143,
+    "test_voz": 112
+  },
+  "variantes_voz_train": 150,
+  "particion_por_intencion": {
+    "abrir_aplicacion": {
+      "train": 90,
+      "val": 19,
+      "test": 20
+    },
+    "abrir_archivo": {
+      "train": 64,
+      "val": 14,
+      "test": 14
+    },
+    "abrir_carpeta": {
+      "train": 60,
+      "val": 12,
+      "test": 13
+    },
+    "ambigua": {
+      "train": 23,
+      "val": 5,
+      "test": 5
+    },
+    "buscar_archivo": {
+      "train": 59,
+      "val": 12,
+      "test": 13
+    },
+    "cerrar_aplicacion": {
+      "train": 51,
+      "val": 11,
+      "test": 11
+    },
+    "consultar_contexto": {
+      "train": 29,
+      "val": 6,
+      "test": 6
+    },
+    "consultar_historial": {
+      "train": 39,
+      "val": 9,
+      "test": 8
+    },
+    "continuar_actividad": {
+      "train": 27,
+      "val": 6,
+      "test": 6
+    },
+    "conversacion_general": {
+      "train": 30,
+      "val": 6,
+      "test": 6
+    },
+    "crear_rutina": {
+      "train": 40,
+      "val": 9,
+      "test": 8
+    },
+    "ejecutar_comando": {
+      "train": 57,
+      "val": 12,
+      "test": 13
+    },
+    "ejecutar_rutina": {
+      "train": 42,
+      "val": 9,
+      "test": 9
+    },
+    "fuera_de_alcance": {
+      "train": 30,
+      "val": 7,
+      "test": 6
+    },
+    "responder_sugerencia": {
+      "train": 23,
+      "val": 5,
+      "test": 5
+    }
+  },
+  "semilla": 42
+}

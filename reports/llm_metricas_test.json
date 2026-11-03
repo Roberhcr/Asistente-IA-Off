@@ -1,0 +1,11 @@
+{
+  "conjunto": "test",
+  "n": 143,
+  "k": 8,
+  "exactitud_intencion": 0.951,
+  "f1_macro": 0.9332,
+  "exactitud_parametros": 0.9301,
+  "json_valido": 0.979,
+  "latencia_media_s": 8.194,
+  "latencia_p95_s": 12.532
+}

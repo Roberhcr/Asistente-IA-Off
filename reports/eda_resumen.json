@@ -1,0 +1,332 @@
+{
+  "total_registros": 1056,
+  "num_intenciones": 15,
+  "por_intencion": {
+    "abrir_aplicacion": 129,
+    "abrir_archivo": 94,
+    "ejecutar_comando": 90,
+    "abrir_carpeta": 85,
+    "buscar_archivo": 84,
+    "conversacion_general": 73,
+    "cerrar_aplicacion": 73,
+    "ejecutar_rutina": 63,
+    "consultar_historial": 62,
+    "crear_rutina": 57,
+    "consultar_contexto": 57,
+    "responder_sugerencia": 52,
+    "fuera_de_alcance": 48,
+    "continuar_actividad": 47,
+    "ambigua": 42
+  },
+  "porcentaje_por_intencion": {
+    "abrir_aplicacion": 12.2,
+    "abrir_archivo": 8.9,
+    "ejecutar_comando": 8.5,
+    "abrir_carpeta": 8.0,
+    "buscar_archivo": 8.0,
+    "conversacion_general": 6.9,
+    "cerrar_aplicacion": 6.9,
+    "ejecutar_rutina": 6.0,
+    "consultar_historial": 5.9,
+    "crear_rutina": 5.4,
+    "consultar_contexto": 5.4,
+    "responder_sugerencia": 4.9,
+    "fuera_de_alcance": 4.5,
+    "continuar_actividad": 4.5,
+    "ambigua": 4.0
+  },
+  "razon_desbalance_max_min": 3.07,
+  "por_categoria": {
+    "sistema": 292,
+    "archivos": 263,
+    "memoria": 166,
+    "automatizacion": 120,
+    "control": 90,
+    "conversacion": 73,
+    "personalizacion": 52
+  },
+  "por_origen": {
+    "plantilla": 1005,
+    "redactado": 51
+  },
+  "por_registro": {
+    "tu": 660,
+    "vos": 152,
+    "usted": 125,
+    "perifrasis": 119
+  },
+  "con_contexto": 59,
+  "palabras": {
+    "count": 1056.0,
+    "mean": 5.82,
+    "std": 2.58,
+    "min": 1.0,
+    "25%": 4.0,
+    "50%": 5.0,
+    "75%": 7.0,
+    "max": 16.0
+  },
+  "caracteres": {
+    "count": 1056.0,
+    "mean": 33.11,
+    "std": 14.62,
+    "min": 3.0,
+    "25%": 23.0,
+    "50%": 32.0,
+    "75%": 41.0,
+    "max": 98.0
+  },
+  "tokens_qwen3": "no medido (llama-server inactivo)",
+  "longitud_por_intencion": {
+    "abrir_aplicacion": {
+      "mean": 4.62,
+      "std": 1.25,
+      "min": 2,
+      "median": 5.0,
+      "max": 8
+    },
+    "abrir_archivo": {
+      "mean": 7.56,
+      "std": 1.71,
+      "min": 4,
+      "median": 7.5,
+      "max": 12
+    },
+    "abrir_carpeta": {
+      "mean": 4.94,
+      "std": 1.42,
+      "min": 2,
+      "median": 5.0,
+      "max": 9
+    },
+    "ambigua": {
+      "mean": 2.79,
+      "std": 1.59,
+      "min": 1,
+      "median": 3.0,
+      "max": 5
+    },
+    "buscar_archivo": {
+      "mean": 7.58,
+      "std": 1.46,
+      "min": 5,
+      "median": 7.0,
+      "max": 11
+    },
+    "cerrar_aplicacion": {
+      "mean": 4.45,
+      "std": 1.56,
+      "min": 1,
+      "median": 4.0,
+      "max": 8
+    },
+    "consultar_contexto": {
+      "mean": 5.84,
+      "std": 1.24,
+      "min": 3,
+      "median": 6.0,
+      "max": 8
+    },
+    "consultar_historial": {
+      "mean": 6.39,
+      "std": 1.69,
+      "min": 3,
+      "median": 6.0,
+      "max": 10
+    },
+    "continuar_actividad": {
+      "mean": 6.62,
+      "std": 1.53,
+      "min": 4,
+      "median": 6.0,
+      "max": 10
+    },
+    "conversacion_general": {
+      "mean": 5.48,
+      "std": 1.58,
+      "min": 3,
+      "median": 6.0,
+      "max": 9
+    },
+    "crear_rutina": {
+      "mean": 12.61,
+      "std": 1.93,
+      "min": 10,
+      "median": 12.0,
+      "max": 16
+    },
+    "ejecutar_comando": {
+      "mean": 4.36,
+      "std": 1.07,
+      "min": 2,
+      "median": 4.0,
+      "max": 7
+    },
+    "ejecutar_rutina": {
+      "mean": 6.41,
+      "std": 1.27,
+      "min": 4,
+      "median": 6.0,
+      "max": 9
+    },
+    "fuera_de_alcance": {
+      "mean": 5.44,
+      "std": 1.37,
+      "min": 3,
+      "median": 5.0,
+      "max": 9
+    },
+    "responder_sugerencia": {
+      "mean": 2.35,
+      "std": 0.52,
+      "min": 2,
+      "median": 2.0,
+      "max": 4
+    }
+  },
+  "duplicados_exactos": 158,
+  "duplicados_normalizados": 159,
+  "instrucciones_unicas_normalizadas": 897,
+  "duplicados_por_intencion": {
+    "conversacion_general": 43,
+    "responder_sugerencia": 39,
+    "ambigua": 29,
+    "consultar_contexto": 16,
+    "ejecutar_comando": 8,
+    "continuar_actividad": 8,
+    "consultar_historial": 6,
+    "fuera_de_alcance": 5,
+    "ejecutar_rutina": 3,
+    "abrir_archivo": 2
+  },
+  "claves_con_intenciones_en_conflicto": 0,
+  "vocabulario": 394,
+  "total_palabras": 6144,
+  "type_token_ratio": 0.064,
+  "top_palabras": [
+    [
+      "de",
+      346
+    ],
+    [
+      "el",
+      278
+    ],
+    [
+      "la",
+      255
+    ],
+    [
+      "por",
+      206
+    ],
+    [
+      "favor",
+      192
+    ],
+    [
+      "porfa",
+      190
+    ],
+    [
+      "qué",
+      127
+    ],
+    [
+      "ahora",
+      126
+    ],
+    [
+      "ya",
+      124
+    ],
+    [
+      "asistente",
+      115
+    ],
+    [
+      "oye",
+      114
+    ],
+    [
+      "mi",
+      111
+    ],
+    [
+      "rutina",
+      101
+    ],
+    [
+      "ey",
+      99
+    ],
+    [
+      "que",
+      72
+    ],
+    [
+      "quiero",
+      67
+    ],
+    [
+      "y",
+      62
+    ],
+    [
+      "lo",
+      59
+    ],
+    [
+      "abrir",
+      58
+    ],
+    [
+      "una",
+      56
+    ]
+  ],
+  "cobertura_parametros": {
+    "abrir_aplicacion": {
+      "aplicacion": 16
+    },
+    "abrir_archivo": {
+      "nombre": 10,
+      "extension": 5
+    },
+    "abrir_carpeta": {
+      "carpeta": 6
+    },
+    "ambigua": {},
+    "buscar_archivo": {
+      "consulta": 10,
+      "extension": 7
+    },
+    "cerrar_aplicacion": {
+      "aplicacion": 15
+    },
+    "consultar_contexto": {
+      "rango_tiempo": 3
+    },
+    "consultar_historial": {
+      "fecha": 5,
+      "aplicacion": 3
+    },
+    "continuar_actividad": {},
+    "conversacion_general": {},
+    "crear_rutina": {
+      "nombre": 6,
+      "acciones": 2
+    },
+    "ejecutar_comando": {
+      "comando": 9,
+      "requiere_confirmacion": 2
+    },
+    "ejecutar_rutina": {
+      "nombre": 6
+    },
+    "fuera_de_alcance": {},
+    "responder_sugerencia": {
+      "respuesta": 3
+    }
+  }
+}
